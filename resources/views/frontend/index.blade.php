@@ -53,7 +53,7 @@
                                             life
                                         </h2>
                                         <div class="tp-slide-btn-box">
-                                            <a class="tp-btn" href="about.html" style="background-color: ">let’s Get Started</a>
+                                            <a class="tp-btn" href="about.html" style="">let’s Get Started</a>
                                         </div>
                                     </div>
                                 </div>

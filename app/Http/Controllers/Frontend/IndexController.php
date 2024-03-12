@@ -17,4 +17,14 @@ class IndexController extends Controller
 
         return view('frontend.about');
     }
+
+    public function contact() {
+
+        return view('frontend.contact');
+    }
+
+    public function services() {
+
+        return view('frontend.services');
+    }
 }

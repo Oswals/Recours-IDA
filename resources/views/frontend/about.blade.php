@@ -2,59 +2,7 @@
 @section('content')
 
 
-    <!-- tp-offcanvus-area-start -->
-    <div class="tpoffcanvas-area">
-        <div class="offcanvas__wrapper">
-            <div class="tpoffcanvas">
-                <div class="tpoffcanvas__close-btn">
-                    <button class="close-btn"><i class="fal fa-times"></i></button>
-                </div>
-                <div class="tpoffcanvas__logo">
-                    <a href="index.html">
-                        <img src="{{asset('frontend/assets/img/logo/logo-black.png')}}" alt="">
-                    </a>
-                </div>
-                <div class="mobile-menu"></div>
-                <div class="tpoffcanvas__contact">
-                    <h4 class="tpoffcanvas__title">Contacts</h4>
-                    <div class="tpoffcanvas__contact-content d-flex">
-                        <div class="tpoffcanvas__contact-content-icon">
-                            <i class="fa-sharp fa-solid fa-location-dot"></i>
-                        </div>
-                        <div class="tpoffcanvas__contact-content-content">
-                            <a
-                                href="https://www.google.com/maps/search/86+Road+Broklyn+Street,+600+New+York,+USA/@40.6897806,-74.0278086,12z/data=!3m1!4b1">86
-                                Road Broklyn Street, 600 </a>
-                        </div>
-                    </div>
-                    <div class="tpoffcanvas__contact-content d-flex">
-                        <div class="tpoffcanvas__contact-content-icon">
-                            <i class="fa-solid fa-envelope"></i>
-                        </div>
-                        <div class="tpoffcanvas__contact-content-content">
-                            <a href="mailto:needhelp@company.com"> Needhelp@company.com </a>
-                        </div>
-                    </div>
-                    <div class="tpoffcanvas__contact-content d-flex">
-                        <div class="tpoffcanvas__contact-content-icon">
-                            <i class="fa-solid fa-phone"></i>
-                        </div>
-                        <div class="tpoffcanvas__contact-content-content">
-                            <a href="tel:01310-069824"> +92 666 888 0000</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tpoffcanvas__social">
-                    <a class="icon facebook" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="icon twitter" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="icon youtube" href="#"><i class="fab fa-youtube"></i></a>
-                    <a class="icon linkedin" href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="body-overlay"></div>
-    <!-- tp-offcanvus-area-end -->
+
 
     <!--  breadcrumb-area  start -->
     <div class="wrapper-box p-relative ">
@@ -172,11 +120,11 @@
                                             <input class="w-100" type="text" placeholder="Telephone" name="number" required="">
                                         </div>
                                         <div class="contact__input">
-                                            <textarea class="w-100" placeholder="Message" name="message" required=""></textarea>
+                                            <textarea class="w-100" placeholder=Message name="message" required=""></textarea>
                                         </div>
 
                                         <div class="contact__button">
-                                            <button class="tp-btn-3" type="submit">Envoyer un message</button>
+                                            <button class="tp-btn-3" type="submit">Envoyez un message</button>
                                         </div>
                                     </div>
                                 </form>
@@ -189,8 +137,7 @@
                         <div class="tp-accordion">
                             <div class="tp-section-box  mb-50">
                                 <div class="tp-section-subtitle pb-10"></div>
-                                <h2 class="tp-section-title pb-10">They frequently asked
-                                    questions</h2>
+                                <h2 class="tp-section-title pb-10">Questions fréquentes</h2>
                             </div>
                             <div class="pe-xl-6">
                                 <div id="accordion" class="accordion-style">
@@ -215,18 +162,13 @@
                                         <div class="card-header" id="headingTwo">
                                  <span class="mb-0">
                                     <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                            aria-expanded="true" aria-controls="collapseTwo">02. Vestibulum sit amet sem
-                                       vitae
-                                       ligula commodo </button>
+                                            aria-expanded="true" aria-controls="collapseTwo">02. Comment fonctionne votre plateforme de recours IDA ? </button>
                                  </span>
                                         </div>
                                         <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo"
                                              data-bs-parent="#accordion" style="">
                                             <div class="card-body">
-                                                Sed ut luctus ante. Duis elementum orci ut mauris iaculis vestibulum. Vestibulum sit
-                                                amet
-                                                sem vitae ligula commodo viverra nec eget est. Integer auctor, dui vel pharetra
-                                                viverra
+                                                Notre plateforme fonctionne en trois étapes simples : vous nous fournissez les détails de votre dossier, nous évaluons votre cas et entamons les démarches nécessaires auprès de votre assureur, puis nous vous tenons informé de l'avancement de votre dossier jusqu'à l'obtention de votre nouvelle indemnisation.
                                             </div>
                                         </div>
                                     </div>
@@ -236,16 +178,14 @@
                                     <button class="btn btn-link collapsed" data-bs-toggle="collapse"
                                             data-bs-target="#collapseThree" aria-expanded="false"
                                             aria-controls="collapseThree">03.
-                                       Phasellus in orci nec neque scelerisque interdum</button>
+                                       Pourquoi devrais-je utiliser votre plateforme de recours IDA ?</button>
                                  </span>
                                         </div>
                                         <div id="collapseThree" class="collapse " aria-labelledby="headingThree"
                                              data-bs-parent="#accordion">
                                             <div class="card-body">
-                                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem
-                                                Ipsum
-                                                passages, and more recently with desktop publishing software like Aldus PageMaker
-                                                including versions of Lorem Ipsum.
+                                                Notre plateforme de recours IDA vous offre un accompagnement personnalisé et professionnel dans le processus de récupération de votre indemnisation.
+                                                Nous mettons à votre disposition une équipe expérimentée qui saura défendre vos intérêts et maximiser votre indemnisation, vous évitant ainsi les tracas administratifs et les négociations fastidieuses avec votre assureur.
                                             </div>
                                         </div>
                                     </div>
@@ -267,9 +207,8 @@
             <div class="row">
                 <div class="col-xxl-6 offset-xxl-3 col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
                     <div class="tp-section-box text-center mb-60">
-                        <h2 class="tp-section-title mb-20">Who trust us</h2>
-                        <p>Our journey has only brought us higher. Information Technology completely
-                            changes the way we analyze and present data</p>
+                        <h2 class="tp-section-title mb-20">Nos Partenaires</h2>
+                        <p>Ces grandes sociétés à travers le monde nous ont fait confiances et ont contribués à notre succès .</p>
                     </div>
                 </div>
             </div>
@@ -315,10 +254,10 @@
                 <div class="col-12">
                     <div class="tp-cta-4__wrap">
                         <div class="tp-cta-4__wrap text-center">
-                            <h2 class="tp-cta-title mb-40">We’re delivering the best <br>
-                                customer experience</h2>
+                            <h2 class="tp-cta-title mb-40">Nous délivrons la meilleure <br>
+                                 experience utilisateur</h2>
                             <div class="tp-cta-btn">
-                                <a class="tp-btn-3" href="about.html">GET STARTED</a>
+                                <a class="tp-btn-3" href="about.html">COMMENCEZ....</a>
                             </div>
                         </div>
                     </div>
@@ -336,9 +275,9 @@
             <div class="row">
                 <div class="col-xxl-8 offset-xxl-2 col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
                     <div class="tp-section-box text-center mb-30">
-                        <div class="tp-section-subtitle mb-15">OUR SPEACIALIST</div>
-                        <h2 class="tp-section-title mb-20">Meet with our experet <br>
-                            team member</h2>
+                        <div class="tp-section-subtitle mb-15">NOS ACTEURS</div>
+                        <h2 class="tp-section-title mb-20">Découvrez l'équipe de choc <br>
+                            derrière notre plateforme</h2>
                     </div>
                 </div>
             </div>
@@ -350,7 +289,7 @@
                                  data-wow-delay="300ms">
                                 <div class="tp-team-2__box fix">
                                     <div class="tp-team-2__thumb">
-                                        <img class="w-100" src="{{asset('frontend/assets/img/team/img1.jpg')}}" alt="">
+                                        <img class="w-100" src="{{asset('frontend/assets/img/actor/lawyers.png')}}" alt="">
                                         <div class="tp-team-2__social">
                                             <ul>
                                                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -365,15 +304,15 @@
                                     <div class="tp-team-2__share">
                                         <a href="team-details.html"><i class="fa-solid fa-share-nodes"></i></a>
                                     </div>
-                                    <h4 class="tp-team-titile"><a href="team-details.html">Alextina Pitterson</a></h4>
-                                    <span>Co Founder</span>
+                                    <h4 class="tp-team-titile"><a href="team-details.html">Juriste</a></h4>
+                                    <span></span>
                                 </div>
                             </div>
                             <div class=" swiper-slide tp-team-2__item text-center pt-30 wow fadeInUp" data-wow-duration="1.5s"
                                  data-wow-delay="600ms">
                                 <div class="tp-team-2__box fix">
                                     <div class="tp-team-2__thumb">
-                                        <img class="w-100" src="{{asset('frontend/assets/img/team/img2.jpg')}}" alt="">
+                                        <img class="w-100" src="{{asset('frontend/assets/img/actor/Expert.png')}}" alt="">
                                         <div class="tp-team-2__social">
                                             <ul>
                                                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -384,19 +323,21 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="tp-team-2__content p-relative">
                                     <div class="tp-team-2__share">
                                         <a href="team-details.html"><i class="fa-solid fa-share-nodes"></i></a>
                                     </div>
-                                    <h4 class="tp-team-titile"><a href="team-details.html">Crispin Ellies</a></h4>
-                                    <span>Manager</span>
+                                    <h4 class="tp-team-titile"><a href="team-details.html">Expert Automobile</a></h4>
+                                    <span></span>
                                 </div>
                             </div>
+
                             <div class=" swiper-slide tp-team-2__item text-center pt-30 wow fadeInUp" data-wow-duration="1.5s"
                                  data-wow-delay="900ms">
                                 <div class="tp-team-2__box fix">
                                     <div class="tp-team-2__thumb">
-                                        <img class="w-100" src="{{asset('frontend/assets/img/team/img3.jpg')}}" alt="">
+                                        <img class="w-100" src="{{asset('frontend/assets/img/actor/programmer.png')}}" alt="">
                                         <div class="tp-team-2__social">
                                             <ul>
                                                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -411,15 +352,16 @@
                                     <div class="tp-team-2__share">
                                         <a href="team-details.html"><i class="fa-solid fa-share-nodes"></i></a>
                                     </div>
-                                    <h4 class="tp-team-titile"><a href="team-details.html">Humphrey Seth</a></h4>
-                                    <span>Developer</span>
+                                    <h4 class="tp-team-titile"><a href="team-details.html">Developpeur</a></h4>
+                                    <span></span>
                                 </div>
                             </div>
+
                             <div class=" swiper-slide tp-team-2__item text-center pt-30 wow fadeInUp" data-wow-duration="1.5s"
                                  data-wow-delay="1200ms">
                                 <div class="tp-team-2__box fix">
                                     <div class="tp-team-2__thumb">
-                                        <img class="w-100" src="{{asset('frontend/assets/img/team/img4.jpg')}}" alt="">
+                                        <img class="w-100" src="{{asset('frontend/assets/img/actor/gestionnaire.png')}}" alt="">
                                         <div class="tp-team-2__social">
                                             <ul>
                                                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -434,8 +376,8 @@
                                     <div class="tp-team-2__share">
                                         <a href="team-details.html"><i class="fa-solid fa-share-nodes"></i></a>
                                     </div>
-                                    <h4 class="tp-team-titile"><a href="team-details.html">Salim Rana</a></h4>
-                                    <span>Founder</span>
+                                    <h4 class="tp-team-titile"><a href="team-details.html">Gestionnaire de dossiers</a></h4>
+                                    <span></span>
                                 </div>
                             </div>
                         </div>
@@ -460,7 +402,7 @@
                         </div>
                         <div class="tpfact__content">
                             <h2><span class="counter">1.8</span>k</h2>
-                            <span>Gave Insurance</span>
+                            <span>Cas Résolus</span>
                         </div>
                     </div>
                 </div>
@@ -472,7 +414,7 @@
                         </div>
                         <div class="tpfact__content">
                             <h2><span class="counter">34</span>+</h2>
-                            <span>Professional Team</span>
+                            <span>Professionnels</span>
                         </div>
                     </div>
                 </div>
@@ -484,7 +426,7 @@
                         </div>
                         <div class="tpfact__content">
                             <h2><span class="counter">1.7</span>k</h2>
-                            <span>Satisfied Clients</span>
+                            <span> Clients Satisfaits</span>
                         </div>
                     </div>
                 </div>
@@ -496,7 +438,7 @@
                         </div>
                         <div class="tpfact__content">
                             <h2><span class="counter">38</span>%</h2>
-                            <span>Success Rates</span>
+                            <span>Taux de succès</span>
                         </div>
                     </div>
                 </div>
