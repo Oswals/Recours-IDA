@@ -22,3 +22,5 @@ Route::get('/', [IndexController::class, 'index'])->name('accueil');
 Route::get('/about', [IndexController::class, 'about'])->name('about');
 Route::get('/contact', [IndexController::class, 'contact'])->name('contact');
 Route::get('/services', [IndexController::class, 'services'])->name('services');
+Route::get('/blog', [IndexController::class, 'blog'])->name('blog');
+Route::get('/blog_details', [IndexController::class, 'blog_details'])->name('blog_details');

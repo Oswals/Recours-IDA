@@ -15,16 +15,24 @@ class IndexController extends Controller
 
     public function about() {
 
-        return view('frontend.about');
+        return view('frontend.pages.about');
     }
 
     public function contact() {
 
-        return view('frontend.contact');
+        return view('frontend.pages.contact');
     }
 
     public function services() {
+        return view('frontend.pages.services');
+    }
 
-        return view('frontend.services');
+
+    public function blog() {
+        return view('frontend.pages.blog');
+    }
+
+    public function blog_details() {
+        return view('frontend.pages.blog_details');
     }
 }

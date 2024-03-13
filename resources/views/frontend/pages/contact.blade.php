@@ -4,7 +4,7 @@
     <!--  breadcrumb-area  start -->
     <div class="wrapper-box p-relative ">
         <div class="breadcrumb__bg breadcrumb__bg__overlay pt-130 pb-130 "
-             data-background="assets/img/breadcrumb/breadcrumb-bg-1.jpg">
+             data-background="{{asset('frontend/assets/img/breadcrumb/breadcrumb-bg-contact.jpg')}}">
             <div class="container">
                 <div class="row">
                     <div class="col-xxl-12">
@@ -66,7 +66,7 @@
                         <div class="map-area">
                             <div class="tpmap-wrapper">
                                 <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13026973.62891735!2d-106.25469552110826!3d37.14286659523624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sbd!4v1681626899539!5m2!1sen!2sbd"
+                                    src="https://maps.google.com/maps?q=06BP+2687.+Akpakpa%2C+Cotonou.+Rep.+du+B%C3%A9nin&t=&z=13&ie=UTF8&iwloc=&output=embed"
                                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
@@ -86,7 +86,7 @@
                                     <i class="flaticon-email"></i>
                                 </div>
                                 <div class="contact__info-text">
-                                    <h4>sessinoumayer@gmail.com</h4>
+                                    <h4>mayersessinou@gmail.com</h4>
                                 </div>
                             </div>
                             <div class="contact__info-item d-flex align-items-start">
