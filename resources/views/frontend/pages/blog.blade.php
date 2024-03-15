@@ -64,11 +64,11 @@
                     <div class="col-xxl-12">
                         <div class="breadcrumb__content p-relative z-index-1 text-center">
                             <div class="breadcrumb__list mb-10">
-                                <span><a href="index.html">INSUREZ </a></span>
+                                <span><a href="index.html">Oslow </a></span>
                                 <span class="dvdr"> / </span>
-                                <span class="sub-page-black">Our Blog</span>
+                                <span class="sub-page-black">Blog</span>
                             </div>
-                            <h3 class="breadcrumb__title mb-20">Our Blog</h3>
+                            <h3 class="breadcrumb__title mb-20">Blog</h3>
                         </div>
                     </div>
                 </div>
@@ -77,179 +77,214 @@
     </div>
     <!--  breadcrumb-area  end -->
 
-    <!-- team area start -->
-    <div class="tp-blog pt-120 pb-90">
+    <!-- postbox area start -->
+    <section class="postbox__area pt-120 pb-90">
         <div class="container">
             <div class="row">
-                <div class="col-xl-4 col-md-6 col-sm-6">
-                    <div class="tpblog pb-30">
-                        <div class="tpblog__thumb-2 fix">
-                            <a href="blog-details.html"><img src="{{asset('frontend/assets/img/blog/img2.jpg')}}" alt=""></a>
-                            <div class="tpblog__catagori-2">
-                                <span>HOME INSURANCE</span>
+                <div class="col-xxl-8 col-xl-8 col-lg-8">
+                    <div class="postbox__wrapper pr-20">
+                        <article class="postbox__item format-image mb-30 transition-3">
+                            <div class="postbox__thumb m-img p-relative">
+                                <a href="blog-details.html">
+                                    <img src="{{'frontend/assets/img/blog/blog-sidebar.jpg'}}" alt="">
+                                    <span> 04 Feb</span>
+                                </a>
                             </div>
-                        </div>
-                        <div class="tpblog__content-2">
-                            <div class="tpblog__meta-2 mb-15">
-                        <span class="date pr-25"><i class="fa-regular fa-calendar"></i> Nov 4,
-                           2022</span>
-                                <span class="user"><i class="fa-light fa-user"></i> by themepure</span>
-                            </div>
-                            <h3 class="tp-blog-title mb-25"><a href="blog-details.html">Money markets rates
-                                    finding the best accounts </a></h3>
-                            <div class="tp-feed-link d-flex align-items-center">
-                                <a class="tp-btn-4 " href="blog-details.html">Read More</a>
-                            </div>
-                            <div class="tpblog__arrow-box-2">
-                        <span>
-                           <a href="blog-details.html"> <i class="fa-solid fa-arrow-right-long"></i></a>
-                        </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-sm-6">
-                    <div class="tpblog pb-30">
-                        <div class="tpblog__thumb-2 fix">
-                            <a href="blog-details.html"><img src="{{asset('frontend/assets/img/blog/blog-big.jpg')}}" alt=""></a>
-                            <div class="tpblog__catagori-2">
-                                <span>Life INSURANCE</span>
-                            </div>
-                        </div>
-                        <div class="tpblog__content-2">
-                            <div class="tpblog__meta-2 mb-15">
-                        <span class="date pr-25"><i class="fa-regular fa-calendar"></i> Nov 4,
-                           2022</span>
-                                <span class="user"><i class="fa-light fa-user"></i> by themepure</span>
-                            </div>
-                            <h3 class="tp-blog-title mb-25"><a href="blog-details.html">Insurance covers risk of
-                                    fire absence </a></h3>
-                            <div class="tp-feed-link d-flex align-items-center">
-                                <a class="tp-btn-4 " href="blog-details.html">Read More</a>
-                            </div>
-                            <div class="tpblog__arrow-box-2">
-                        <span>
-                           <a href="blog-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
-                        </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-sm-6">
-                    <div class="tpblog pb-30">
-                        <div class="tpblog__thumb-2 fix">
-                            <a href="blog-details.html"><img src="{{asset('frontend/assets/img/blog/img3.jpg')}}" alt=""></a>
-                            <div class="tpblog__catagori-2">
-                                <span>Business INSURANCE</span>
-                            </div>
-                        </div>
-                        <div class="tpblog__content-2">
-                            <div class="tpblog__meta-2 mb-15">
-                        <span class="date pr-25"><i class="fa-regular fa-calendar"></i> Nov 4,
-                           2022</span>
-                                <span class="user"><i class="fa-light fa-user"></i> by themepure</span>
-                            </div>
-                            <h3 class="tp-blog-title mb-25"><a href="blog-details.html">It’s a long established fact
-                                    that a reader</a></h3>
-                            <div class="tp-feed-link d-flex align-items-center">
-                                <a class="tp-btn-4 " href="blog-details.html">Read More</a>
-                            </div>
-                            <div class="tpblog__arrow-box-2">
-                        <span>
-                           <a href="blog-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
-                        </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-sm-6">
-                    <div class="tpblog pb-30">
-                        <div class="tpblog__thumb-2 fix">
-                            <a href="blog-details.html"><img src="{{asset('assets/img/blog/blog3.4.jpg')}}" alt=""></a>
-                            <div class="tpblog__catagori-2">
-                                <span>CAR INSURANCE</span>
-                            </div>
-                        </div>
-                        <div class="tpblog__content-2">
-                            <div class="tpblog__meta-2 mb-15">
-                        <span class="date pr-25"><i class="fa-regular fa-calendar"></i> Nov 4,
-                           2022</span>
-                                <span class="user"><i class="fa-light fa-user"></i> by themepure</span>
-                            </div>
+                            <div class="postbox__content">
+                                <div class="postbox__meta">
 
-                            <h3 class="tp-blog-title mb-25"><a href="blog-details.html">Former insures ony the
-                                    merine perils </a></h3>
+                                    <span><a href="blog-details.html"><i class="far fa-user"></i> By Themepure</a></span>
+                                    <span><a href="blog-details.html"><i class="fal fa-comments"></i> 02 Comments</a></span>
+                                </div>
+                                <h3 class="postbox__title">
+                                    We providing the best insurance service
+                                </h3>
+                                <div class="postbox__text">
+                                    <p>Curabitur luctus euismod metus, eu pellentesque mauris tempus sit amet. Proin ante odio,
+                                        posuere id lacus auctor, elementum tempor tellus. Integer mattis justo eu enim tempus
+                                        lacinia. Fusce vitae enim diam. Ut commodo viverra magna non egestas</p>
+                                </div>
+                            </div>
+                            <div class="blog-btn mt-30">
+                                <a class="tp-btn" href="blog-details.html">READ MORE</a>
+                            </div>
+                        </article>
+                        <article class="postbox__item format-image mb-30 transition-3">
+                            <div class="postbox__thumb m-img p-relative">
+                                <a href="blog-details.html">
+                                    <img src="{{asset(('frontend/assets/img/blog/blog-sidebar2.jpg'))}}" alt="">
+                                    <span> 04 Feb</span>
+                                </a>
+                            </div>
+                            <div class="postbox__content">
+                                <div class="postbox__meta">
 
-                            <div class="tp-feed-link d-flex align-items-center">
-                                <a class="tp-btn-4 " href="blog-details.html">Read More</a>
+                                    <span><a href="blog-details.html"><i class="far fa-user"></i> By Themepure</a></span>
+                                    <span><a href="blog-details.html"><i class="fal fa-comments"></i> 02 Comments</a></span>
+                                </div>
+                                <h3 class="postbox__title">
+                                    Key Features For your Insurance Business
+                                </h3>
+                                <div class="postbox__text">
+                                    <p>Curabitur luctus euismod metus, eu pellentesque mauris tempus sit amet. Proin ante odio,
+                                        posuere id lacus auctor, elementum tempor tellus. Integer mattis justo eu enim tempus
+                                        lacinia. Fusce vitae enim diam. Ut commodo viverra magna non egestas</p>
+                                </div>
                             </div>
-                            <div class="tpblog__arrow-box-2">
-                        <span>
-                           <a href="blog-details.html"> <i class="fa-solid fa-arrow-right-long"></i></a>
-                        </span>
+                            <div class="blog-btn mt-30">
+                                <a class="tp-btn" href="blog-details.html">READ MORE</a>
                             </div>
+                        </article>
+                        <article class="postbox__item format-image mb-50 transition-3">
+                            <div class="postbox__thumb m-img p-relative">
+                                <a href="blog-details.html">
+                                    <img src="{{asset('frontend/assets/img/blog/blog-sidebar3.jpg')}}" alt="">
+                                    <span> 04 Feb</span>
+                                </a>
+                            </div>
+                            <div class="postbox__content">
+                                <div class="postbox__meta">
+
+                                    <span><a href="blog-details.html"><i class="far fa-user"></i> By Themepure</a></span>
+                                    <span><a href="blog-details.html"><i class="fal fa-comments"></i> 02 Comments</a></span>
+                                </div>
+                                <h3 class="postbox__title">
+                                    Trusted and Professional Insurance Company
+                                </h3>
+                                <div class="postbox__text">
+                                    <p>Curabitur luctus euismod metus, eu pellentesque mauris tempus sit amet. Proin ante odio,
+                                        posuere id lacus auctor, elementum tempor tellus. Integer mattis justo eu enim tempus
+                                        lacinia. Fusce vitae enim diam. Ut commodo viverra magna non egestas</p>
+                                </div>
+                            </div>
+                            <div class="blog-btn mt-30">
+                                <a class="tp-btn" href="blog-details.html">READ MORE</a>
+                            </div>
+                        </article>
+                        <div class="basic-pagination">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="blog-sidebar.html">1</a>
+                                    </li>
+                                    <li>
+                                        <span class="current">2</span>
+                                    </li>
+                                    <li>
+                                        <a href="blog-sidebar.html">3</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-sidebar.html">
+                                            <i class="far fa-angle-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 col-sm-6">
-                    <div class="tpblog pb-30">
-                        <div class="tpblog__thumb-2 fix">
-                            <a href="blog-details.html"><img src="{{asset('frontend/assets/img/blog/blog3.5.jpg')}}" alt=""></a>
-                            <div class="tpblog__catagori-2">
-                                <span>HOME INSURANCE</span>
+                <div class="col-xxl-4 col-xl-4 col-lg-4">
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__widget sidebar__widget-1 mb-40">
+                            <div class="sidebar__widget-content">
+                                <div class="sidebar__search">
+                                    <form action="#">
+                                        <div class="sidebar__search-input-2">
+                                            <input type="text" placeholder="Search">
+                                            <button type="submit"><i class="far fa-search"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
-                        <div class="tpblog__content-2">
-                            <div class="tpblog__meta-2 mb-15">
-                        <span class="date pr-25"><i class="fa-regular fa-calendar"></i> Nov 4,
-                           2022</span>
-                                <span class="user"><i class="fa-light fa-user"></i> by themepure</span>
-                            </div>
-                            <h3 class="tp-blog-title mb-25"><a href="blog-details.html">How to make contrary to
-                                    popular insurance </a></h3>
-                            <div class="tp-feed-link d-flex align-items-center">
-                                <a class="tp-btn-4 " href="blog-details.html">Read More</a>
-                            </div>
-                            <div class="tpblog__arrow-box-2">
-                        <span>
-                           <a href="blog-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
-                        </span>
+                        <div class="sidebar__widget sidebar__widget-2 mb-40">
+                            <h3 class="sidebar__widget-title">Post récebts</h3>
+                            <div class="sidebar__widget-content">
+                                <div class="sidebar__post p-relative">
+                                    <div class="rc__post d-flex align-items-center">
+                                        <div class="rc__post-thumb mr-20">
+                                            <a href="blog-details.html"><img src="{{asset('frontend/assets/img/sideber/resent-post.png')}}" alt=""></a>
+                                            <span> <i class="flaticon-right-arrows"></i></span>
+                                        </div>
+                                        <div class="rc__post-content">
+                                            <div class="rc__meta">
+                                                <span><i class="fal fa-comments"></i> 02 Comments</span>
+                                            </div>
+                                            <h3 class="rc__post-title">
+                                                <a href="blog-details.html">Designing human body
+                                                    interfaces</a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="rc__post d-flex align-items-center">
+                                        <div class="rc__post-thumb mr-20">
+                                            <a href="blog-details.html"><img src="{{asset('frontend/assets/img/sideber/resent-post3.png')}}" alt=""></a>
+                                            <span> <i class="flaticon-right-arrows"></i></span>
+                                        </div>
+                                        <div class="rc__post-content">
+                                            <div class="rc__meta">
+                                                <span><i class="fal fa-comments"></i> 02 Comments</span>
+                                            </div>
+                                            <h3 class="rc__post-title">
+                                                <a href="blog-details.html">Designing human body
+                                                    interfaces</a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="rc__post d-flex align-items-center">
+                                        <div class="rc__post-thumb mr-20">
+                                            <a href="blog-details.html"><img src="{{asset('frontend/assets/img/sideber/resent-post2.png')}}" alt=""></a>
+                                            <span> <i class="flaticon-right-arrows"></i></span>
+                                        </div>
+                                        <div class="rc__post-content">
+                                            <div class="rc__meta">
+                                                <span><i class="fal fa-comments"></i> 02 Comments</span>
+                                            </div>
+                                            <h3 class="rc__post-title">
+                                                <a href="blog-details.html">Designing human body
+                                                    interfaces</a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-sm-6">
-                    <div class="tpblog pb-30">
-                        <div class="tpblog__thumb-2 fix">
-                            <a href="blog-details.html"><img src="{{asset('frontend/assets/img/blog/blog3.6.jpg')}}" alt=""></a>
-                            <div class="tpblog__catagori-2">
-                                <span>LIFE INSURANCE</span>
+
+
+                        <div class="sidebar__widget sidebar__widget-3 mb-40">
+                            <h3 class="sidebar__widget-title"> Catagories </h3>
+                            <div class="sidebar__widget-content">
+                                <ul>
+                                    <li>
+                                        <a href="blog-details.html">Conseils <i class="flaticon-right-arrows"></i></a>
+                                    </li>
+                                    <li><a href="blog-details.html">Politique d'assurance <i class="flaticon-right-arrows"></i></a></li>
+                                    <li><a href="blog-details.html">Taux d'Accidents <i class="flaticon-right-arrows"></i></a></li>
+                                    <li><a href="blog-details.html"> Arnaque a l'assurance <i class="flaticon-right-arrows"></i></a></li>
+                                    <li><a href="blog-details.html"> Protection <i class="flaticon-right-arrows"></i></a></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="tpblog__content-2">
-                            <div class="tpblog__meta-2 mb-15">
-                        <span class="date pr-25"><i class="fa-regular fa-calendar"></i> Nov 4,
-                           2022</span>
-                                <span class="user"><i class="fa-light fa-user"></i> by themepure</span>
-                            </div>
-                            <h3 class="tp-blog-title mb-25"><a href="blog-details.html">Guide to audio visual java
-                                    jsa script </a></h3>
-                            <div class="tp-feed-link d-flex align-items-center">
-                                <a class="tp-btn-4 " href="blog-details.html">Read More</a>
-                            </div>
-                            <div class="tpblog__arrow-box-2">
-                        <span>
-                           <a href="blog-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
-                        </span>
+
+
+                        <div class="sidebar__widget sidebar__widget-4 mb-40">
+                            <h3 class="sidebar__widget-title">Tags</h3>
+                            <div class="sidebar__widget-content">
+                                <div class="tagcloud">
+                                    <a href="#">Assurance</a>
+                                    <a href="#">Conseils</a>
+                                    <a href="#">Protection</a>
+                                    <a href="#">A</a>
+                                    <a href="#">Life</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-    </div>
-    <!-- team area end -->
+    </section>
+    <!-- postbox area end -->
 
 
 @endsection

@@ -180,8 +180,14 @@
     <!--  Insurance Details end -->
 
     <!-- feature area start -->
+
     <div class="tpfeature-area pt-60 pb-90">
-        <div class="container">
+        <div class="container"  style="margin-top:38px">
+            <div class="tp-section-box text-center mb-30">
+                <div class="tp-section-subtitle mb-10">Que proposons Nous ?? </div>
+                <h2 class="tp-section-title mb-45">Nous nous occupons de toutes  <br>
+                    les étapes du recours</h2>
+            </div>
             <div class="row">
                 <div class="col-xl-4 col-md-4 col-sm-6 col-12">
                     <div class="tpfeature mb-30 wow fadeInUp" data-wow-duration="1.5s"
@@ -239,7 +245,7 @@
             <div class="tp-cta-4__bg ">
                 <div class="row align-items-center">
                     <div class="col-xl-8">
-                        <h3 class="cta-titile">Trouvez solution a vos problèmes d'IDA</h3>
+                        <h3 class="cta-titile">Trouvez solution a vos problèmes d'Indemnisation Automobile avec Oslow</h3>
                     </div>
                     <div class="col-xl-4">
                         <div class="tp-cta-4__right text-end">
@@ -255,3 +261,4 @@
     <!-- cta  area end -->
 
 @endsection
+

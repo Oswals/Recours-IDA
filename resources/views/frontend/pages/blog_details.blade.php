@@ -59,7 +59,7 @@
     <!--  breadcrumb-area  start -->
     <div class="wrapper-box p-relative ">
         <div class="breadcrumb__bg breadcrumb__bg__overlay pt-130 pb-130 "
-             data-background="assets/img/breadcrumb/breadcrumb-bg-1.jpg">
+             data-background="{{asset('frontend/assets/img/breadcrumb/breadcrumb-bg-1.jpg')}}">
             <div class="container">
                 <div class="row">
                     <div class="col-xxl-12">
@@ -206,12 +206,12 @@
 
                                     <!-- Postez un commentaire start -->
                                     <div class="postbox__comment-form">
-                                        <h3 class="postbox__comment-form-title">Leave your comment</h3>
+                                        <h3 class="postbox__comment-form-title">Laissez un commentaire</h3>
                                         <form action="#">
                                             <div class="row">
                                                 <div class="col-xxl-6 col-xl-6 col-lg-6">
                                                     <div class="postbox__comment-input">
-                                                        <input type="text" placeholder="Your Name">
+                                                        <input type="text" placeholder="Votre Nom">
                                                     </div>
                                                 </div>
                                                 <div class="col-xxl-6 col-xl-6 col-lg-6">
@@ -221,7 +221,7 @@
                                                 </div>
                                                 <div class="col-xxl-12">
                                                     <div class="postbox__comment-input">
-                                                        <textarea placeholder="Write your comment"></textarea>
+                                                        <textarea placeholder="Ecrivez votre commentaire"></textarea>
                                                     </div>
                                                 </div>
                                                 <div class="col-xxl-12">
@@ -262,7 +262,7 @@
                         </div>
 
                         <div class="sidebar__widget sidebar__widget-2 mb-40">
-                            <h3 class="sidebar__widget-title">Our latest post</h3>
+                            <h3 class="sidebar__widget-title">Post Récents</h3>
                             <div class="sidebar__widget-content">
 
                                 <!-- Recommendations vers d'autre post start -->
@@ -339,11 +339,11 @@
 
                         <!-- Tags start -->
                         <div class="sidebar__widget sidebar__widget-4 mb-40">
-                            <h3 class="sidebar__widget-title">Our Tags</h3>
+                            <h3 class="sidebar__widget-title"> Tags </h3>
                             <div class="sidebar__widget-content">
                                 <div class="tagcloud">
-                                    <a href="#">Insurance</a>
-                                    <a href="#">Policy</a>
+                                    <a href="#">IDA</a>
+                                    <a href="#">Politique</a>
                                     <a href="#">Life insurance</a>
                                     <a href="#">Protect</a>
                                     <a href="#">Financial</a>
